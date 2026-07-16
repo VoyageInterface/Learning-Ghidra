@@ -1,0 +1,21 @@
+Изначальный код(source code) программы, соответствующий PE exe-шник которой мы закидываем в Ghidra я писал на Си:
+
+C:
+
+int func(int a, int b)
+{
+  if(a>=b)
+  {
+    return a;
+  }
+  else
+  {
+    return b;
+  }
+}
+
+int main(){
+
+func(2,3);
+return 0;
+}
